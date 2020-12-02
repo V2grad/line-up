@@ -1,8 +1,6 @@
-from fastapi.encoders import jsonable_encoder
 from sqlalchemy.orm import Session
 
 from app import crud
-# from app.core.security import verify_password
 from app.schemas.user import UserCreate, UserUpdate
 # some helpers for random input purpose
 from app.tests.utils.utils import random_email, random_ascii_string
@@ -44,7 +42,7 @@ def test_authenticate_user(db: Session) -> None:
     name = random_ascii_string()
     user_in = UserCreate(name=name)
     user = crud.user.create(db, obj_in=user_in)
-    # try Authenticate using the token from generated user
+    # try authenticate using the token from generated user
     authenticated_user = crud.user.authenticate(db, token=user.token)
     assert authenticated_user
     assert user.id == authenticated_user.id
@@ -70,7 +68,7 @@ def test_get_by_user_id(db: Session) -> None:
 
 
 ''' 
-    A deleted user should be removed permently
+    A deleted user should be removed permently, return none when query
 '''
 def test_remove_user(db: Session) -> None:
     name = random_ascii_string()
@@ -78,6 +76,6 @@ def test_remove_user(db: Session) -> None:
     user = crud.user.create(db, obj_in=user_in)
     userId = user.id
     crud.user.remove(user)
-    # find the same id again 
+    # find the same user id again 
     thisUser = crud.user.findById(userId)
     assert thisUser is None
