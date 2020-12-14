@@ -7,6 +7,11 @@
 - online and interaction mode
 - used by students and mentors
 
+
+## Docs
+
+Except comments, please refer to `docs` folder for more info (structure, WIP, etc.)
+
 ## Project setup
 ```
 yarn install
