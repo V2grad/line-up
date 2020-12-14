@@ -10,7 +10,7 @@
 
 ## Docs
 
-Except comments, please refer to `docs` folder for more info (structure, WIP, etc.)
+Except comments, please refer to `docs` folder for more info (structure, plan, etc.)
 
 ## Project setup
 ```

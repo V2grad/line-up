@@ -1,7 +1,8 @@
 ## plan
 
 ### complete the project
-some function hasn't been implemented, like view Logs, viplist. Current goal is to complete all the coding
+Basic scripts is not totally complete.
+some function hasn't been implemented, like view Logs, viplist. Current goal is to complete all the coding.
 
 ### better role control
 

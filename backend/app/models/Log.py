@@ -4,13 +4,16 @@ import datetime
 class Log():
 
     # initializing the Log cass
-    def __init__(self):
-        logging.basicConfig(filename='Lineup.log', encoding='utf-8', level=logging.DEBUG)
+    def __init__(self,s):
+        logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s %(message)s',
+                    handlers=[logging.FileHandler("lineup_"+s+".log"),
+                              logging.StreamHandler()])
     
     #record a message into Lineup.log
     #argument: string that need to be recorded
     def logContent(self, s):
-        logging.info(str(datetime.datetime.now())+": "+s)
+        logging.info(s)
     
     #view the Log
     def viewLog(self):

@@ -1,0 +1,120 @@
+2020-12-14 17:46:33,602 1: initializing complete
+2020-12-14 17:46:33,603 1: Event.getEventName
+2020-12-14 17:46:33,604 1: Event.getEventName complete
+2020-12-14 17:46:33,612 1: Event.getEventId
+2020-12-14 17:46:33,613 1: Event.getEventId complete
+2020-12-14 17:46:33,614 1: Event.addQueue(check,1)
+2020-12-14 17:46:33,615 1: Event.addQueue(check,1) complete
+2020-12-14 17:46:33,615 1: Event.deleteQueue(1)
+2020-12-14 17:46:33,616 1: Event.deleteQueue(1) complete
+2020-12-14 17:46:41,652 1: initializing complete
+2020-12-14 17:46:41,653 1: Event.getEventName
+2020-12-14 17:46:41,653 1: Event.getEventName complete
+2020-12-14 17:46:41,654 1: Event.getEventId
+2020-12-14 17:46:41,655 1: Event.getEventId complete
+2020-12-14 17:46:41,655 1: Event.addQueue(check,1)
+2020-12-14 17:46:41,657 1: Event.addQueue(check,1) complete
+2020-12-14 17:46:41,658 1: Event.deleteQueue(1)
+2020-12-14 17:46:41,658 1: Event.deleteQueue(1) complete
+2020-12-14 17:46:42,328 1: initializing complete
+2020-12-14 17:46:42,329 1: Event.getEventName
+2020-12-14 17:46:42,329 1: Event.getEventName complete
+2020-12-14 17:46:42,331 1: Event.getEventId
+2020-12-14 17:46:42,331 1: Event.getEventId complete
+2020-12-14 17:46:42,332 1: Event.addQueue(check,1)
+2020-12-14 17:46:42,332 1: Event.addQueue(check,1) complete
+2020-12-14 17:46:42,342 1: Event.deleteQueue(1)
+2020-12-14 17:46:42,342 1: Event.deleteQueue(1) complete
+2020-12-14 17:51:14,844 1: initializing complete
+2020-12-14 17:51:14,844 1: Event.getEventName
+2020-12-14 17:51:14,845 1: Event.getEventName complete
+2020-12-14 17:51:14,846 1: Event.getEventId
+2020-12-14 17:51:14,846 1: Event.getEventId complete
+2020-12-14 17:51:14,847 1: Event.addQueue(check,1)
+2020-12-14 17:51:14,847 1: Event.addQueue(check,1) complete
+2020-12-14 17:51:14,855 1: Event.deleteQueue(1)
+2020-12-14 17:51:14,855 1: Event.deleteQueue(1) complete
+2020-12-14 17:51:14,856 1: Event.addQueue(check,1)
+2020-12-14 17:51:14,857 1: Event.addQueue(check,1) complete
+2020-12-14 17:51:14,857 1: Event.addQueue(help,2)
+2020-12-14 17:51:14,858 1: Event.addQueue(help,2) complete
+2020-12-14 17:51:35,470 1: initializing complete
+2020-12-14 17:51:35,471 1: Event.getEventName
+2020-12-14 17:51:35,471 1: Event.getEventName complete
+2020-12-14 17:51:35,473 1: Event.getEventId
+2020-12-14 17:51:35,473 1: Event.getEventId complete
+2020-12-14 17:51:35,474 1: Event.addQueue(check,1)
+2020-12-14 17:51:35,474 1: Event.addQueue(check,1) complete
+2020-12-14 17:51:35,475 1: Event.deleteQueue(1)
+2020-12-14 17:51:35,475 1: Event.deleteQueue(1) complete
+2020-12-14 17:51:35,476 1: Event.addQueue(check,1)
+2020-12-14 17:51:35,476 1: Event.addQueue(check,1) complete
+2020-12-14 17:51:35,476 1: Event.addQueue(help,2)
+2020-12-14 17:51:35,477 1: Event.addQueue(help,2) complete
+2020-12-14 17:51:35,477 1: Event.Lock() complete
+2020-12-14 17:52:02,683 1: initializing complete
+2020-12-14 17:52:02,684 1: Event.getEventName
+2020-12-14 17:52:02,685 1: Event.getEventName complete
+2020-12-14 17:52:02,685 1: Event.getEventId
+2020-12-14 17:52:02,686 1: Event.getEventId complete
+2020-12-14 17:52:02,686 1: Event.addQueue(check,1)
+2020-12-14 17:52:02,687 1: Event.addQueue(check,1) complete
+2020-12-14 17:52:02,687 1: Event.deleteQueue(1)
+2020-12-14 17:52:02,687 1: Event.deleteQueue(1) complete
+2020-12-14 17:52:02,687 1: Event.addQueue(check,1)
+2020-12-14 17:52:02,688 1: Event.addQueue(check,1) complete
+2020-12-14 17:52:02,688 1: Event.addQueue(help,2)
+2020-12-14 17:52:02,688 1: Event.addQueue(help,2) complete
+2020-12-14 17:52:02,689 1: Event.Lock() complete
+2020-12-14 17:52:02,689 1: Queue.Lock() complete
+2020-12-14 17:52:02,689 2: Queue.Lock() complete
+2020-12-14 17:52:02,689 1: Event.deleteQueue(1)
+2020-12-14 17:52:02,690 1: Event.deleteQueue(1) error
+2020-12-14 17:52:02,690 1: Event.addQueue(extra,3)
+2020-12-14 17:52:02,690 1: Event.addQueue(extra,3) error
+2020-12-14 17:52:25,777 1: initializing complete
+2020-12-14 17:52:25,777 1: Event.getEventName
+2020-12-14 17:52:25,778 1: Event.getEventName complete
+2020-12-14 17:52:25,779 1: Event.getEventId
+2020-12-14 17:52:25,779 1: Event.getEventId complete
+2020-12-14 17:52:25,780 1: Event.addQueue(check,1)
+2020-12-14 17:52:25,781 1: Event.addQueue(check,1) complete
+2020-12-14 17:52:25,781 1: Event.deleteQueue(1)
+2020-12-14 17:52:25,782 1: Event.deleteQueue(1) complete
+2020-12-14 17:52:25,782 1: Event.addQueue(check,1)
+2020-12-14 17:52:25,782 1: Event.addQueue(check,1) complete
+2020-12-14 17:52:25,783 1: Event.addQueue(help,2)
+2020-12-14 17:52:25,783 1: Event.addQueue(help,2) complete
+2020-12-14 17:52:25,783 1: Event.Lock() complete
+2020-12-14 17:52:25,783 1: Queue.Lock() complete
+2020-12-14 17:52:25,784 2: Queue.Lock() complete
+2020-12-14 17:52:25,784 1: Event.deleteQueue(1)
+2020-12-14 17:52:25,784 1: Event.deleteQueue(1) error
+2020-12-14 17:52:25,784 1: Event.addQueue(extra,3)
+2020-12-14 17:52:25,785 1: Event.addQueue(extra,3) error
+2020-12-14 17:52:25,785 1: Event.Unlock() complete
+2020-12-14 17:52:25,785 1: Queue.Unlock() complete
+2020-12-14 17:52:25,785 2: Queue.Unlock() complete
+2020-12-14 17:53:52,076 1: initializing complete
+2020-12-14 17:53:52,076 1: Event.getEventName
+2020-12-14 17:53:52,077 1: Event.getEventName complete
+2020-12-14 17:53:52,078 1: Event.getEventId
+2020-12-14 17:53:52,078 1: Event.getEventId complete
+2020-12-14 17:53:52,079 1: Event.addQueue(check,1)
+2020-12-14 17:53:52,080 1: Event.addQueue(check,1) complete
+2020-12-14 17:53:52,080 1: Event.deleteQueue(1)
+2020-12-14 17:53:52,080 1: Event.deleteQueue(1) complete
+2020-12-14 17:53:52,080 1: Event.addQueue(check,1)
+2020-12-14 17:53:52,081 1: Event.addQueue(check,1) complete
+2020-12-14 17:53:52,081 1: Event.addQueue(help,2)
+2020-12-14 17:53:52,081 1: Event.addQueue(help,2) complete
+2020-12-14 17:53:52,081 1: Event.Lock() complete
+2020-12-14 17:53:52,082 1: Queue.Lock() complete
+2020-12-14 17:53:52,082 2: Queue.Lock() complete
+2020-12-14 17:53:52,082 1: Event.deleteQueue(1)
+2020-12-14 17:53:52,082 1: Event.deleteQueue(1) error
+2020-12-14 17:53:52,083 1: Event.addQueue(extra,3)
+2020-12-14 17:53:52,083 1: Event.addQueue(extra,3) error
+2020-12-14 17:53:52,083 1: Event.Unlock() complete
+2020-12-14 17:53:52,083 1: Queue.Unlock() complete
+2020-12-14 17:53:52,083 2: Queue.Unlock() complete
