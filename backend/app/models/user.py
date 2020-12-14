@@ -1,7 +1,7 @@
 from Participant import Participant
 
 #User base on Participant
-class User(Particiant):
+class User(Participant):
     # tell users all the assistants who can help
     # argument: list of all assistants
     def setAssistant(self,assistant):

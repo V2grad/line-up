@@ -53,3 +53,7 @@ all the url schemas of the applicatioin
 ### schemas
 
 build new database and migrate all the data in the old database if exists.
+
+### tests
+
+all the tests (not totally finished)
