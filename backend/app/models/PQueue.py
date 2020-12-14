@@ -1,6 +1,7 @@
+
 from Participant import Participant
-import GQueue
-class PQueue(GQueue):
+from GQueue import Queue
+class PQueue(Queue):
     def sortQueue(self):
         self.Log.logcontent(self.queue_id+": sortQueue()")
         self.queue.sort(key = Participant.key)
