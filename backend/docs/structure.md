@@ -52,4 +52,4 @@ all the url schemas of the applicatioin
 
 ### schemas
 
-build new database and migrate all the datas in the old database if exists.
+build new database and migrate all the data in the old database if exists.
