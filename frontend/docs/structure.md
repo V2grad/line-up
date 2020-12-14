@@ -63,3 +63,7 @@ It is basically a classic Vuejs Application layout, but modulization make everyt
 
 Application wide views, such as 404 pages
 
+
+## Note 
+
+Most of the communcation logic are in vuex store.

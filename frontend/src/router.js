@@ -33,6 +33,7 @@ const router = new Router({
   }, {
     path: '',
     component: MainLayout,
+    // Import modules here!
     children: [
       ...DashBoardRouter,
       ...UserRouter,
@@ -40,7 +41,7 @@ const router = new Router({
       ...RecordRouter
     ]
   },
-  { // Fallback
+  { // Fallback pages
     path: '',
     component: InitLayout,
     children: [{
@@ -51,6 +52,8 @@ const router = new Router({
   ]
 })
 
+
+// Router hook for authentication
 router.beforeEach((to, from, next) => {
   if (to.matched.some(record => record.meta.authRequired)) {
     if (!store.state.isAuthenticated) {

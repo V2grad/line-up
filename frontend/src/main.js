@@ -1,3 +1,6 @@
+// If you want to add more third-party library,
+// please import them in a separate folder and 
+// add in index.js
 import './config'
 import Vue from 'vue'
 import App from './App.vue'
