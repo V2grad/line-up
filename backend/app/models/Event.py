@@ -13,13 +13,13 @@ class Event:
         self.Log = Log()
         self.Log.logcontent(self.event_id + ": initializing complete")
     
-    # get the event name
+    # return the event name
     def getEventName(self):
         self.Log.logcontent(self.event_id + ": Event.getEventName")
         self.Log.logcontent(self.event_id + ": Event.getEventName complete")
         return self.name
     
-    # get the event id
+    # return the event id
     def getEventId(self):
         self.Log.logcontent(self.event_id + ": Event.getEventId")
         self.Log.logcontent(self.event_id + ": Event.getEventId complete")

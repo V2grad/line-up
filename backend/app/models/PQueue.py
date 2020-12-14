@@ -1,7 +1,10 @@
 
 from Participant import Participant
 from GQueue import Queue
+
+# Priority Queue base on Queue in GQueue
 class PQueue(Queue):
+    #sort the queue base on Participant.key
     def sortQueue(self):
         self.Log.logcontent(self.queue_id+": sortQueue()")
         self.queue.sort(key = Participant.key)
