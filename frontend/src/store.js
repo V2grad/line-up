@@ -12,6 +12,7 @@ import local from '@/modules/local/store'
 // and getters.
 export default new Vuex.Store({
   modules: {
+    // Import modules here 
     home,
     auth,
     user,
