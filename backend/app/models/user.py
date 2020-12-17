@@ -1,26 +1,38 @@
-from Participant import Participant
+from typing import Optional
 
-#User base on Participant
-class User(Participant):
-    # tell users all the assistants who can help
-    # argument: list of all assistants
-    def setAssistant(self,assistant):
-        self.assistant = assistant
-        self.assistantname = []
-        for i in self.assistant:
-            self.assistantname.append(i.name)
-        self.assistantid=[]
-        for i in self.assistant:
-            self.assistantid.append(i.user_id)
-    
-    #return all the names of assistants who can help me
-    def getAssistantName(self):
-        return self.assistantname
-    
-    #return all the names of assistants who can help me
-    def getAssistantId(self):
-        return self.assistantid
-    
-    #return the contact information
-    def getContact(self):
-        return self.contact
+from pydantic import BaseModel, EmailStr
+
+
+# Shared properties
+class UserBase(BaseModel):
+    email: Optional[EmailStr] = None
+    is_admin: bool = False
+    full_name: Optional[str] = None
+
+
+# Properties to receive via API on creation
+class UserCreate(UserBase):
+    email: EmailStr
+    password: str
+
+
+# Properties to receive via API on update
+class UserUpdate(UserBase):
+    password: Optional[str] = None
+
+
+class UserInDBBase(UserBase):
+    id: Optional[int] = None
+
+    class Config:
+        orm_mode = True
+
+
+# Additional properties to return via API
+class User(UserInDBBase):
+    pass
+
+
+# Additional properties stored in DB
+class UserInDB(UserInDBBase):
+    hashed_password: str

@@ -22,7 +22,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-If you saw `(venv)` at the front of your current commandline, then you have successfully enter virtual environment
+If you saw `(venv)` at the front of your current commandline, then you have successfully entered virtual environment.
 
 #### Exit venv
 
