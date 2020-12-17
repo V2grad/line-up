@@ -9,18 +9,21 @@ from app.schemas.user import UserCreate, UserUpdate
 
 # it is the repository of command for all possible database manipulation
 # convert general function calls to database manupulation
+
+#not finished
 class CRUDUser(CRUDBase[User, UserCreate, UserUpdate]):
     def get_by_email(self, db: Session, *, email: str) -> Optional[User]:
-
+        #place holder
+        return False
     def create(self, db: Session, *, obj_in: UserCreate) -> User:
         #place holder
-        return db_obj
+        return False
 
     def update(
         self, db: Session, *, db_obj: User, obj_in: Union[UserUpdate, Dict[str, Any]]
     ) -> User:
-        #place hlder
-        return super().update(db, db_obj=db_obj, obj_in=update_data)
+        #place holder
+        return False
 
     def authenticate(self, db: Session, *, email: str, password: str) -> Optional[User]:
         user = self.get_by_email(db, email=email)

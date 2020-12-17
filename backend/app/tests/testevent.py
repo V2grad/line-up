@@ -2,7 +2,7 @@ import sys
 sys.path.append("../models")
 from Event import Event
 
-
+#test model/Event.py
 if __name__ =="__main__":
     a=Event('lab1',1)
     print(a.getEventName())
