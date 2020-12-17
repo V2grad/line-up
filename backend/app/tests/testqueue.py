@@ -3,7 +3,7 @@ sys.path.append("../models")
 from GQueue import GQueue
 from User import User
 
-
+#test model/PQueue.py
 if __name__ =="__main__":
     a=GQueue('check',1)
     a.getQueueName

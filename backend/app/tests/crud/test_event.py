@@ -5,6 +5,7 @@ from app.schemas.item import ItemCreate, ItemUpdate
 from app.tests.utils.user import create_random_user
 from app.tests.utils.utils import random_lower_string
 
+#test event
 
 def test_create_item(db: Session) -> None:
     title = random_lower_string()
