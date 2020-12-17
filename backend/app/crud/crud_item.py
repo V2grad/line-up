@@ -7,7 +7,10 @@ from app.crud.base import CRUDBase
 from app.models.item import Item
 from app.schemas.item import ItemCreate, ItemUpdate
 
+# it is the repository of command for all possible database manipulation
+# convert general function calls to database manupulation
 
+#not finished
 class CRUDItem(CRUDBase[Item, ItemCreate, ItemUpdate]):
     def create_with_owner(
         self, db: Session, *, obj_in: ItemCreate, owner_id: int
