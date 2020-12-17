@@ -1,3 +1,9 @@
+/**
+ * Router modules
+ * Please add your new module under MainLayout.
+ * If you planned to have a new layout, you may try
+ * inheritance from InitLayout.
+ */
 import Vue from 'vue'
 import Router from 'vue-router'
 import store from '@/store'
@@ -18,37 +24,37 @@ const router = new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [{
-    path: '',
-    component: InitLayout,
-    children: [
-      ...AuthRouter,
-      ...HomeRouter,
-      // Trival
-      {
-        path: '/404',
-        name: 'WIP',
-        component: () => import(/* webpackChunkName: "WIP" */ '@/views/WIP')
-      }
-    ]
-  }, {
-    path: '',
-    component: MainLayout,
-    // Import modules here!
-    children: [
-      ...DashBoardRouter,
-      ...UserRouter,
-      ...EventRouter,
-      ...RecordRouter
-    ]
-  },
-  { // Fallback pages
-    path: '',
-    component: InitLayout,
-    children: [{
-      path: '*',
-      component: () => import(/* webpackChunkName: "WIP" */ '@/views/WIP')
-    }]
-  }
+      path: '',
+      component: InitLayout,
+      children: [
+        ...AuthRouter,
+        ...HomeRouter,
+        // Trival
+        {
+          path: '/404',
+          name: 'WIP',
+          component: () => import( /* webpackChunkName: "WIP" */ '@/views/WIP')
+        }
+      ]
+    }, {
+      path: '',
+      component: MainLayout,
+      // Import modules here!
+      children: [
+        ...DashBoardRouter,
+        ...UserRouter,
+        ...EventRouter,
+        ...RecordRouter
+      ]
+    },
+    { // Fallback pages
+      path: '',
+      component: InitLayout,
+      children: [{
+        path: '*',
+        component: () => import( /* webpackChunkName: "WIP" */ '@/views/WIP')
+      }]
+    }
   ]
 })
 

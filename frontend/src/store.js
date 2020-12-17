@@ -1,4 +1,10 @@
-
+/**
+ * Store modules
+ * persistented state uses local storage
+ * be sure to clean up after each store changes.
+ * Remember to add modules to reducer
+ * if it does not need persistance.
+ */
 import createPersistedState from 'vuex-persistedstate'
 import Vuex from 'vuex'
 
@@ -20,7 +26,7 @@ export default new Vuex.Store({
     local
   },
   plugins: [createPersistedState({
-    reducer (state) {
+    reducer(state) {
       // No need to use let as the reducer itself can be immutable which do not mean that the properties
       // are not mutable (https://ponyfoo.com/articles/var-let-const)
       const reducer = Object.assign({}, state)
